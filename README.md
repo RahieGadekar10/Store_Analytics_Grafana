@@ -1,5 +1,5 @@
 # Store Analytics
-The data is generated from the store in the form of csv and trasnferred in real time to the MySql server. From the MySql Server the data is then consumed by Grafana for real-time analytics visualization. On a daily basis the data from MySql is appended to Hadoop File System with the help of Sqoop as the final storage space. The complete pipeline for transfer is automated by creating a pipeline and scheduling with the help of Airflow. 
+The data is generated from the store in the form of csv and transferred in real time to the MySql server. From the MySql Server the data is then consumed by Grafana for real-time analytics visualization. On a daily basis the data from MySql is appended to Hadoop File System with the help of Sqoop as the final storage space. The complete pipeline for transfer is automated by creating a pipeline and scheduling with the help of Airflow. 
 
 ## Data Flow : 
 <img src = "https://github.com/RahieGadekar10/Store_Analytics_Grafana/blob/dee4aa3bb36213f9593b448ded4466a0bddfbcb3/sqoop.png"></img>
